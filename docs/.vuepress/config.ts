@@ -8,6 +8,7 @@
 import { defaultTheme, defineUserConfig } from 'vuepress';
 import { docsearchPlugin } from '@vuepress/plugin-docsearch';
 export default defineUserConfig({
+  base: '/docs/',
   plugins: [
     docsearchPlugin({
       apiKey: '',
