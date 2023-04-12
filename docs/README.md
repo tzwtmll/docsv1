@@ -2,20 +2,20 @@
 home: true
 heroText: pdd's blog
 heroImage: /images/web.png
-tagline: Web前端博客，真正的大师永远怀着一颗学徒的心，致敬每一个热爱前端的人。
+tagline: 真正的大师永远怀着一颗学徒的心，致敬每一个热爱前端的人。
 # # 按钮
 actions:
   - text: 快速上手
-    link: /guide/index.md
+    link: /guide
     type: primary
   - text: 项目简介
-    link: /vite/structure
+    link: /vite/index
     type: secondary
 # 描述
 features:
   - title: 前端
     details: JavaScript、ES6、Vue框架等前端技术
-    link: /web/ 
+    link: /web/
     imgUrl: /images/web.png
   - title: 页面
     details: html(5)/css(3)，前端页面相关技术

@@ -12,6 +12,6 @@ git add -A
 git commit -m 'deploy'
 
 # 推到仓库中
-git push -f git@github.com:tzwtmll/docs.git master:gh-pages
+git push -f https://github.com/tzwtmll/docs.git master:gh-pages
 
 cd -
