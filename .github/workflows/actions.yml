@@ -23,7 +23,7 @@ jobs:
     #       run_install: true
     - name: 安装依赖 ⚙️
       run: npm install
-    - name: 打包 🏗️
+    - name: 打包 🏗️ 
       run: |
         npm run build
     - name: 部署 🚀
