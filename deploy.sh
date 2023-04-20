@@ -14,4 +14,4 @@ git commit -m 'deploy'
 # 推到仓库中
 git push -f https://github.com/tzwtmll/docs.git master:gh-pages
 
-cd -
+cd - 
