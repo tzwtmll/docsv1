@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: pdd's blog
+heroText: pdd .blog
 heroImage: /images/web.png
 tagline: 真正的大师永远怀着一颗学徒的心，致敬每一个热爱前端的人。
 # # 按钮
