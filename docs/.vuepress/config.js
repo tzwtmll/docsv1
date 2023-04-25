@@ -1,5 +1,5 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
-import { searchPlugin } from '@vuepress/plugin-search';
+import { searchPlugin } from '@vuepress/plugin-search'
 export default defineUserConfig({
   head: [['link', { rel: 'icon', href: '/images/pdd.jpg' }]],
   base: '/docs/',
@@ -57,6 +57,10 @@ export default defineUserConfig({
               {
                 text: '面试题',
                 link: '/interview/index',
+              },
+              {
+                text: 'typescript 的使用',
+                link: '/typescript/index',
               },
             ],
           },
