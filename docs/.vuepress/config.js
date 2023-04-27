@@ -2,7 +2,7 @@ import { defaultTheme, defineUserConfig } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
 export default defineUserConfig({
   head: [['link', { rel: 'icon', href: '/images/pdd.jpg' }]],
-  base: '/docs/',
+  base: '/docsv1/',
   plugins: [
     searchPlugin({
       locales: {
