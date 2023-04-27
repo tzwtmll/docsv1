@@ -51,7 +51,7 @@ export default defineUserConfig({
             ],
           },
           {
-            text: 'Javascript文章',
+            text: 'Javascript模块',
             children: [
               { text: '函数柯里化', link: '/javascript/currying' },
               {
@@ -60,7 +60,7 @@ export default defineUserConfig({
               },
               {
                 text: 'typescript 的使用',
-                link: '/typescript/index',
+                link: '/frontend/typescript',
               },
             ],
           },
@@ -73,10 +73,10 @@ export default defineUserConfig({
               },
             ],
           },
-          {
-            text: 'Css',
-            link: '/css/index',
-          },
+          // {
+          //   text: 'Css',
+          //   link: '/css/index',
+          // },
         ],
       },
       {

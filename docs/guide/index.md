@@ -54,6 +54,10 @@ permalink: /guide
 
 - `开发中`
 
+### python
+
+- `开发中`
+
 ## 工程化
 
 ### vite

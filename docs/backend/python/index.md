@@ -1,0 +1,5 @@
+---
+permalink: /python/index
+---
+
+# python

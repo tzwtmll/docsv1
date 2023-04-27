@@ -1,7 +1,7 @@
 ---
 # 首页
 home: true
-heroText: pdd .blog
+heroText: pdd's blog
 heroImage: /images/web.png
 tagline: 真正的大师永远怀着一颗学徒的心，致敬每一个热爱前端的人。
 # # 按钮
@@ -15,11 +15,10 @@ actions:
 # 描述
 features:
   - title: 前端
-    details: JavaScript、ES6、Vue框架等前端技术
-    link: /web/
+    details: JavaScript、ES6、React、Vue框架等前端技术
     imgUrl: /images/web.png
-  - title: 页面
-    details: html(5)/css(3)，前端页面相关技术
+  - title: 后端
+    details: nodejs、nestjs 后端框架与数据库技术
     link: /ui/
     imgUrl: /images/ui.png
   - title: 技术
