@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-a19a002a","path":"/javascript/currying/","title":"函数柯里化概念","lang":"zh-CN","frontmatter":{"permalink":"/javascript/currying"},"headers":[],"git":{"updatedTime":1682574089000,"contributors":[{"name":"tzwtmll","email":"104382132+tzwtmll@users.noreply.github.com","commits":1}]},"filePathRelative":"frontend/javascript/currying.md"}');export{t as data};
