@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-280c191c","path":"/nestjs/index/","title":"nestjs","lang":"zh-CN","frontmatter":{"permalink":"/nestjs/index"},"headers":[],"git":{"updatedTime":1682574089000,"contributors":[{"name":"tzwtmll","email":"104382132+tzwtmll@users.noreply.github.com","commits":1}]},"filePathRelative":"backend/nestjs/index.md"}');export{e as data};
