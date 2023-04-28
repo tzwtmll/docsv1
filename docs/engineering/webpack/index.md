@@ -200,7 +200,7 @@ module: {
           loader: "babel-loader",
           // 下面这段一般是在 .babel 文件中写
           options: {
-            preset: ["@babel/preset-dev"],
+            preset: ["@babel/preset-env"],
           },
         },
      },
@@ -428,7 +428,7 @@ new EslintPlugin({
             use: {
               loader: "babel-loader",
               options: {
-                // preset: ["@babel/preset-dev"],
+                // preset: ["@babel/preset-env"],
                 cacheDirectory: true, // 开启缓存压缩
                 cacheCompression: false, // 关闭缓存文件
               },
@@ -582,7 +582,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            // preset: ["@babel/preset-dev"],
+            // preset: ["@babel/preset-env"],
             cacheDirectory: true, // 开启缓存压缩
             cacheCompression: false, // 关闭缓存文件
             plugins: ['react-refresh/babel'], // 激活 react 热更新
