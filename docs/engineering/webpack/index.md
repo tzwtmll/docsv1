@@ -187,7 +187,7 @@ module: {
 
 ## babel 环境
 
-`npm i babel-loader @bebal/core @babel/preset-env -D`
+`npm i babel-loader @babel/core @babel/preset-env -D`
 
 > 实现语法降级 xml 环境等功能
 
