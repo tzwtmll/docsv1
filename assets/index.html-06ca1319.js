@@ -100,7 +100,7 @@ sass-loader // 解析 sacc
           <span class="token literal-property property">loader</span><span class="token operator">:</span> <span class="token string">&quot;babel-loader&quot;</span><span class="token punctuation">,</span>
           <span class="token comment">// 下面这段一般是在 .babel 文件中写</span>
           <span class="token literal-property property">options</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-            <span class="token literal-property property">preset</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;@babel/preset-dev&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token literal-property property">preset</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;@babel/preset-env&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
           <span class="token punctuation">}</span><span class="token punctuation">,</span>
         <span class="token punctuation">}</span><span class="token punctuation">,</span>
      <span class="token punctuation">}</span><span class="token punctuation">,</span>
@@ -211,7 +211,7 @@ module<span class="token punctuation">.</span>exports <span class="token operato
             <span class="token literal-property property">use</span><span class="token operator">:</span> <span class="token punctuation">{</span>
               <span class="token literal-property property">loader</span><span class="token operator">:</span> <span class="token string">&quot;babel-loader&quot;</span><span class="token punctuation">,</span>
               <span class="token literal-property property">options</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-                <span class="token comment">// preset: [&quot;@babel/preset-dev&quot;],</span>
+                <span class="token comment">// preset: [&quot;@babel/preset-env&quot;],</span>
                 <span class="token literal-property property">cacheDirectory</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">// 开启缓存压缩</span>
                 <span class="token literal-property property">cacheCompression</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">// 关闭缓存文件</span>
               <span class="token punctuation">}</span><span class="token punctuation">,</span>
@@ -306,7 +306,7 @@ module<span class="token punctuation">.</span>exports <span class="token operato
         <span class="token literal-property property">use</span><span class="token operator">:</span> <span class="token punctuation">{</span>
           <span class="token literal-property property">loader</span><span class="token operator">:</span> <span class="token string">&#39;babel-loader&#39;</span><span class="token punctuation">,</span>
           <span class="token literal-property property">options</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-            <span class="token comment">// preset: [&quot;@babel/preset-dev&quot;],</span>
+            <span class="token comment">// preset: [&quot;@babel/preset-env&quot;],</span>
             <span class="token literal-property property">cacheDirectory</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">// 开启缓存压缩</span>
             <span class="token literal-property property">cacheCompression</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">// 关闭缓存文件</span>
             <span class="token literal-property property">plugins</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&#39;react-refresh/babel&#39;</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token comment">// 激活 react 热更新</span>
